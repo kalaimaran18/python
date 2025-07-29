@@ -1,5 +1,4 @@
-'''
-# to find a num is magic number or not 
+# To find a num is magic number or not 
 number=int(input("enter a number"))
 temp=number
 sum_digits=0
@@ -16,9 +15,9 @@ if sum_digits==product_digits:
 else:
     print(number,"is not a magic number 123:")
 
-    '''
-'''
-# at the same problem of above
+    
+
+# At the same problem of above
 
 sum,mul=0,1
 while (n>0):
@@ -30,8 +29,8 @@ if sum==mul:
     print("magic number")
 else:
     print("not a magic number")
-'''
-'''
+
+
 #oops concept(class and object)
 
 class student:
@@ -40,8 +39,8 @@ class student:
 s1=student()
 s1.say_hello()
 
-'''
-'''
+
+
 #constructors
 class students:
     def __init__(self,fname,age):
@@ -53,8 +52,8 @@ class students:
         print(f"name:{self.x},age:{self.y}")
 s1=students(fname="kalai",age=20)
 s1.display()
-'''
-'''
+
+
 
 # single level inheritance
 class bcci:
@@ -67,8 +66,6 @@ t=bcci()
 t.ipl()
 t.tnpl()
 
-'''
-'''
 #multi level inheritance
 class students:
     def cse(self):
@@ -79,8 +76,6 @@ class students:
 f=students()
 f.cse()
 
-'''
-'''
 #polymorphism
 class dad:
     def house(self):
@@ -98,8 +93,6 @@ o.agriland()
 o.his_son()
 o.his_wife() 
 
-'''
-'''
 # prime number program
 num=int(input("enter the number:"))
 if num<=1:
@@ -114,7 +107,6 @@ else:
         print("prime number")
     else:
         print("not a prime")
-'''
 
 #access specifier
 class parent:
